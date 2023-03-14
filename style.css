@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+}
+
+body {
+    background: #012043;    
+}
+
+header {
+    padding: 10px;
+    background: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.containerBusca {
+    padding: 30px 0;
+    background: #D34646;
+    display: block;
+    text-align: center;
+    border: solid #4D4D4D 2px;
+    border-radius: 20px;
+    width: 25%;
+    margin: 15px auto;
+}
+
+.containerPersonagem {
+    padding: 20px 0;
+    background: #D34646;
+    display: block;
+    text-align: center;
+    border: solid #4D4D4D 2px;
+    border-radius: 20px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.input {
+    display: block;
+    font-size: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+.input:hover {
+    background:  #f0ebeb;
+}
+
+.input:focus {
+    background:  #f0ebeb;
+    border-color: #4D4D4D;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    background: #4D4D4D;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background:#1d1c1c;    
+}
+
+#imgPersonagem {
+    width: 80%;
+    height: 90%;
+}
+
+#nomePersonagem {
+    padding: 15px 0 0 0;
+    font-size: 30px;
+}
