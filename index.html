@@ -8,28 +8,29 @@
     <script type="text/javascript" src="./script.js"></script>
     <title>Pokemon - Paulo</title>
 <body>
-    <div class="container"></div>
+    <div class="container">
         <header>
-            <img src="logoTarget.png">
+            <img class="imagem_logo" src="logoTarget.png">
         </header>
-        <main>
+        <main class="container_geral">
             <div class="containerBusca">
                 <input class="input" id="idPersonagem" type="text" placeholder="Id Personagem">
                 <button onclick="executar()" class="btn" id="btn_buscar" >Buscar</button>
             </div>
             <div class="containerPersonagem">
+                <div class="bolinha"></div>
                 <div class="containerImagem">
                     <img id="img_pk" src="" alt="imagem">
                 </div>
                 <div id="nome_pk">
-                    NOME
+                    Pokemon
                 </div>
                 <div class="tipos_pk">
-                    <div id="tipo01">
-                        tipo01
+                    <div id="tipo01" class="tipos">
+                        tipo
                     </div>
-                    <div id="tipo02">
-                        tipo02
+                    <div id="tipo02" class="tipos">
+                        tipo
                     </div>
                 </div>
             </div>

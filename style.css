@@ -1,6 +1,7 @@
 
 * {
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 body {
@@ -14,14 +15,22 @@ header {
     margin-bottom: 15px;
 }
 
+.imagem_logo {
+    width: 35%;
+}
+
+.container_geral {
+    padding-top: 25px;
+}
+
 .containerBusca {
-    padding: 30px 0;
+    padding: 10px 0 30px 0;
     background: #D34646;
     display: block;
     text-align: center;
-    border: solid #4D4D4D 2px;
-    border-radius: 20px;
-    width: 25%;
+    border: solid black 2px;
+    border-radius: 20px 30px 20px 20px;
+    width: 30%;
     margin: 15px auto;
 }
 
@@ -30,28 +39,28 @@ header {
     background: #D34646;
     display: block;
     text-align: center;
-    border: solid #4D4D4D 2px;
-    border-radius: 20px;
-    width: 30%;
+    border: solid black 2px;
+    border-radius: 20px 30px 20px 20px;
+    width: 27%;
     margin: 0 auto;
 }
 
 .input {
     display: block;
     font-size: 20px;
+    border-color: black;
     margin: 20px auto;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     width: 80%;
 }
 
 .input:hover {
-    background:  #f0ebeb;
+    background:  #E8E7FE;
 }
 
 .input:focus {
-    background:  #f0ebeb;
-    border-color: #4D4D4D;
+    background:  #E8E7FE;
     outline: none;
 }
 
@@ -59,23 +68,60 @@ header {
     display: inline-block;
     font-size: 15px;
     font-weight: bold;
-    background: #4D4D4D;
-    color: white;
+    background: #EFEFEF;
+    color: black;
     padding: 5px 10px;
-    border-radius: 8px;
+    border-radius: 15px;
+    border: solid white 3px;
     cursor: pointer;
+    width: 80%;
 }
 
 .btn:hover {
-    background:#1d1c1c;    
+    background:#E8E7FE;    
 }
 
-#imgPersonagem {
-    width: 80%;
-    height: 90%;
+.bolinha {
+    width: 25px;
+    height: 25px;
+    background: #5248CE;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin-left: 15px;
 }
 
-#nomePersonagem {
-    padding: 15px 0 0 0;
-    font-size: 30px;
+.containerImagem {
+    background: #E8E7FE;
+    border: solid white 6px;
+    margin: 20px 25px 15px 25px;
+    border-radius: 15px 15px 15px 30px;
 }
+
+#img_pk {
+    width: 70%;
+    height: 70%;
+}
+
+#nome_pk {
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.tipos_pk {
+    padding-bottom: 15px;
+}
+
+.tipos {
+    margin: 10px;
+    display: inline-block;
+    padding: 5px 20px;
+    background: #ffffff;
+    border: solid black 1px;
+    border-radius: 30px;
+    color: white;
+    font-size: 2vw;
+    width: 25%;
+}
+
